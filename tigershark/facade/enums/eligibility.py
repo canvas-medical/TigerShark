@@ -122,8 +122,8 @@ service_type_codes = {
     "AO": "Lenses",
     "AP": "Routine Eye Exam",
     "AQ": "Nonmedically Necessary Physical (These physicals are required by "
-            "other entities e.g., insurance application, pilot license, "
-            "employment or school)",
+          "other entities e.g., insurance application, pilot license, "
+          "employment or school)",
     "AR": "Experimental Drug Therapy",
     "B1": "Burn Care",
     "B2": "Brand Name Prescription Drug - Formulary",
@@ -231,17 +231,17 @@ coverage_level = {
 
 insurance_type = {
     "12": "Medicare Secondary Working Aged Beneficiary or Spouse with "
-            "Employer Group Health Plan",
+          "Employer Group Health Plan",
     "13": "Medicare Secondary End-Stage Renal Disease Beneficiary in the 12 "
-            "month coordination period with an employer's group health plan",
+          "month coordination period with an employer's group health plan",
     "14": "Medicare Secondary, No-fault Insurance including Auto is Primary",
     "15": "Medicare Secondary Worker's Compensation",
     "16": "Medicare Secondary Public Health Service (PHS)or Other Federal "
-            "Agency",
+          "Agency",
     "41": "Medicare Secondary Black Lung",
     "42": "Medicare Secondary Veteran's Administration",
     "43": "Medicare Secondary Disabled Beneficiary Under Age 65 with Large "
-            "Group Health Plan (LGHP)",
+          "Group Health Plan (LGHP)",
     "47": "Medicare Secondary, Other Liability Insurance is Primary",
     "AP": "Auto Insurance Policy",
     "C1": "Commercial",
@@ -302,7 +302,7 @@ reject_reason_code = {
     "18": "Ship date must not be after current date",
     "19": "Ship date cannot be prior to price authorization issue date",
     "20": "Ship date should not be before price authorization date (for "
-            "rebills)",
+          "rebills)",
     "21": "Price authorization is a rebill type",
     "23": "Price authorization has been deleted",
     "24": "Price authorization used on a sales order",
@@ -319,7 +319,7 @@ reject_reason_code = {
     "35": "Out of Network",
     "36": "Testing not Included",
     "37": "Request Forwarded To and Decision Response Forthcoming From an "
-            "External Review Organization",
+          "External Review Organization",
     "41": "Authorization/Access Restrictions",
     "42": "Unable to Respond at Current Time",
     "43": "Invalid/Missing Provider Identification",
@@ -351,7 +351,7 @@ reject_reason_code = {
     "69": "Inconsistent with Patient's Age",
     "70": "Inconsistent with Patient's Gender",
     "71": "Patient Birth Date Does Not Match That for the Patient on the "
-            "Database",
+          "Database",
     "72": "Invalid/Missing Subscriber/Insured ID",
     "73": "Invalid/Missing Subscriber/Insured Name",
     "74": "Invalid/Missing Subscriber/Insured Gender Code",
@@ -406,13 +406,13 @@ reject_reason_code = {
     "DV": "Reject Due to Load Dividers, Side Filters, Special Equipment",
     "E1": "Requested Record Will Not Be Sent; Cannot Identify the Record",
     "E2": "Requested Record Will Not Be Sent; Need Student or Parent "
-            "Permission",
+          "Permission",
     "E3": "Requested Record Will Not Be Sent",
     "E4": "Requested Record Will Not Be Sent; Never Enrolled",
     "E5": "Requested Record Will Not Be Sent; No Degree Awarded",
     "E6": "Requested Record Will Not Be Sent; No Grades Posted",
     "E7": "Requested Record Cannot Be Sent Electronically; Record Resides in "
-            "Paper Format only which Will Be Sent by Mail",
+          "Paper Format only which Will Be Sent by Mail",
     "E8": "Requires Medical Review",
     "EA": "Empty Equipment Available for Loading",
     "ER": "Reject Due to Spotted in Error",
@@ -421,7 +421,7 @@ reject_reason_code = {
     "GS": "Release From Demurrage and Start Storage until Waybilled",
     "HB": "Reject Due to Handbrake",
     "HH": "Reject Due to Hand Hold, Ladder, Step, Running Boards, Platforms, "
-            "etc.",
+          "etc.",
     "HX": "Reject Due to Hot Journal Box",
     "ID": "Releases an Idler",
     "II": "Industrial Interchange",
@@ -453,11 +453,11 @@ reject_reason_code = {
     "SU": "Reject Due to Superstructure - End, Roof and Sides",
     "SW": "Local Waybill",
     "T1": "Cannot Identify Provider as TPO (Third Party Organization) "
-            "Participant",
+          "Participant",
     "T2": "Cannot Identify Payer as TPO (Third Party Organization) "
-            "Participant",
+          "Participant",
     "T3": "Cannot Identify Insured as TPO (Third Party Organization) "
-            "Participant",
+          "Participant",
     "T4": "Payer Name or Identifier Missing",
     "T5": "Certification Information Missing",
     "T6": "Claim does not contain enough information for re-pricing",
