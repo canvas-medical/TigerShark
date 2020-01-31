@@ -25,7 +25,7 @@ This module inherits mappings for the following class definitions.
 
         - X12Element.  An atomic piece of data.  These are identified
           positionally within a segment's source text.
-          
+
 ..  autoclass:: Factory
     :members:
 """
@@ -43,28 +43,32 @@ from tigershark.X12.message import X12Segment
 # Define the sa.mapper between X12.message structures
 # and database metadata.
 
-class Factory( Factory ):
+
+class Factory(Factory):
     """A Factory for this module's version of X12Message structures."""
+
     @staticmethod
-    def makeMessage( name, *structure ):
+    def makeMessage(name, *structure):
         """Create a new X12Message object.
-        
+
         :param name: name of this Message
         :param structure: the various Loops of this Message
         :returns: X12Message instance
         """
-        return X12Message( name, *structure )
+        return X12Message(name, *structure)
+
     @staticmethod
-    def makeLoop( name, *structure ):
+    def makeLoop(name, *structure):
         """Create a new X12Loop object.
-        
+
         :param name: name of this Loop
         :param structure: the various sub-Loops and Segments of this Loop
         :returns: X12Loop instance
         """
-        return X12Loop( name, *structure )
+        return X12Loop(name, *structure)
+
     @staticmethod
-    def makeSegment( segmentToken, compositeSep=":", segmentType=None ):
+    def makeSegment(segmentToken, compositeSep=":", segmentType=None):
         """Create a new X12Segment object.
         Ideally, all Segments exist as classes, defined in a module
         that imports this one, and is built by some conversion utility.
@@ -78,9 +82,9 @@ class Factory( Factory ):
             the Elements and Composites of this Segment.
         :returns: X12Segment instance
         """
-        name= "X12Segment_%s" % segmentToken[0]
+        name = "X12Segment_%s" % segmentToken[0]
         try:
-            theClass= eval(name)
+            theClass = eval(name)
         except NameError:
-            theClass= X12Segment
-        return theClass( segmentToken, segmentType )
+            theClass = X12Segment
+        return theClass(segmentToken, segmentType)

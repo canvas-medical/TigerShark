@@ -372,7 +372,7 @@ quantity_qualifier = {
     "CO": "Cumulative Oil/Condensate Volume",
     "CP": "Current Period Imbalance",
     "CR": "Certified Registered Nurse Anesthetist (CRNA) Number of "
-            "Concurrent Procedures",
+          "Concurrent Procedures",
     "CS": "Current Service Life",
     "CW": "Cumulative Water Volume",
     "CY": "Convictions Sent",
@@ -779,7 +779,7 @@ quantity_qualifier = {
     "XG": "On Hand and Due-In",
     "XI": "Installment Payments",
     "XJ": "Other War Reserve Material Requirements Protectable (OWRMRP) "
-            "Quantity",
+          "Quantity",
     "XL": "Approximate Number of Units Projected",
     "XN": "Approximate Number of Holders",
     "XO": "Circulating Oil",
@@ -939,14 +939,14 @@ delivery_time_pattern_code = {
 
 reference_id_qualifier = {
     "01": "American Bankers Assoc. (ABA) Transit/Routing Number (Including "
-            "Check Digit, 9 Digits)",
+          "Check Digit, 9 Digits)",
     "02": "Society for Worldwide Interbank Financial Telecommunication "
-            "(S.W.I.F.T.) Identification (8 or 11 Characters)",
+          "(S.W.I.F.T.) Identification (8 or 11 Characters)",
     "03": "Clearing House Interbank Payment System (CHIPS) Participant "
-            "Number (3 or 4 Digits)",
+          "Number (3 or 4 Digits)",
     "04": "Canadian Financial Institution Branch and Institution Number",
     "05": "Clearing House Interbank Payment System (CHIPS) User "
-            "Identification (6 digits)",
+          "Identification (6 digits)",
     "06": "System Number",
     "07": "Add-On System Number",
     "08": "Carrier Assigned Package Identification Number",
@@ -1033,7 +1033,7 @@ reference_id_qualifier = {
     "2T": "Sub-subhouse Bill of Lading",
     "2U": "Payer Identification Number",
     "2V": "Special Government Accounting Classification Reference Number "
-            "(ACRN)",
+          "(ACRN)",
     "2W": "Change Order Authority",
     "2X": "Supplemental Agreement Authority",
     "2Y": "Wage Determination",
@@ -1083,7 +1083,7 @@ reference_id_qualifier = {
     "46": "Old Meter Number",
     "47": "Plate Number",
     "48": "Agency's Student Number. This is the number assigned by an agency "
-            "other than the institution sending the record.",
+          "other than the institution sending the record.",
     "49": "Family Unit Number",
     "4A": "Personal Identification Number (PIN)",
     "4B": "Shipment Origin Code",
@@ -1137,7 +1137,7 @@ reference_id_qualifier = {
     "5N": "Citation of Statute",
     "5O": "Citation of Opinion",
     "5P": "National Criminal Information Center Originating Agency "
-            "Identification",
+          "Identification",
     "5Q": "State Criminal History Repository Individual Identification",
     "5R": "Federal Bureau of Investigation Individual Identification",
     "5S": "Processing Area",
@@ -1195,7 +1195,7 @@ reference_id_qualifier = {
     "79": "Cost Account",
     "7A": "Purchase Order Number Included in On-Order Position",
     "7B": "Purchase Order Number of Shipment Received since Last Reporting "
-            "Date",
+          "Date",
     "7C": "Purchase Order Number of Order Received since Last Reporting Date",
     "7D": "Tester Identification",
     "7E": "Collector Identification",
@@ -1219,7 +1219,7 @@ reference_id_qualifier = {
     "7X": "Home Mortgage Disclosure Act (HMDA) State Code",
     "7Y": "Home Mortgage Disclosure Act (HMDA) County Code",
     "7Z": "Home Mortgage Disclosure Act (HMDA) Metropolitan Statistical Area "
-            "(MSA)",
+          "(MSA)",
     "80": "Charge Number",
     "81": "Symbol Number (for Milestone or LOB reports)",
     "82": "Data Item Description (DID) Reference",
@@ -1240,7 +1240,7 @@ reference_id_qualifier = {
     "8H": "Check List Number",
     "8I": "FEDWIRE Confirmation Number",
     "8J": "Society for Worldwide Interbank Financial Telecommunications "
-            "(SWIFT) Confirmation Number",
+          "(SWIFT) Confirmation Number",
     "8K": "Dominion of Canada Code",
     "8L": "International Standard Industry Classification Code (ISIC)",
     "8M": "Originating Company Identifier",
@@ -1263,7 +1263,7 @@ reference_id_qualifier = {
     "93": "Funds Authorization",
     "94": "File Identification Number",
     "95": "Committee on Uniform Securities Identification Procedures (CUSIP) "
-            "Number",
+          "Number",
     "96": "Stock Certificate Number",
     "97": "Package Number",
     "98": "Container/Packaging Specification Number",
@@ -1340,7 +1340,7 @@ reference_id_qualifier = {
     "ABG": "National Property Registry System Level 2",
     "ABH": "Investor Assigned Identification Number",
     "ABJ": "Ginnie Mae (Government National Mortgage Association) Pool "
-            "Package Number",
+           "Package Number",
     "ABK": "Mortgage Electronic Registration System Organization Identifier",
     "ABL": "Seller Loan Number",
     "ABM": "Sub-Servicer Loan Number",
@@ -1349,13 +1349,13 @@ reference_id_qualifier = {
     "ABP": "Bankruptcy Procedure Number",
     "ABQ": "National Business Identification Number",
     "ABR": "Prior Data Universal Number System (D-U-N-S) Number, "
-            "Dun & Bradstreet",
+           "Dun & Bradstreet",
     "ABS": "Vessel Name",
     "ABT": "Security Instrument Number",
     "ABU": "Assignment Recording Number",
     "ABV": "Book Number",
     "ABY": "Health Care Financing Administration National Payer "
-            "Identification Number",
+           "Identification Number",
     "AC": "Air Cargo Transfer Manifest",
     "ACA": "Growth Factor Reference",
     "ACB": "Region",
@@ -1375,12 +1375,12 @@ reference_id_qualifier = {
     "ACP": "Continuous Transfer Number",
     "ACQ": "Last Transfer Number",
     "ACR": "Automated Clearinghouse (ACH) Return/Notification of Change "
-            "(NOC) Code",
+           "(NOC) Code",
     "ACS": "Society of Property Information Compilers and Analysts",
     "ACT": "Accounting Code",
     "AD": "Acceptable Source DUNS Number",
     "ADA": "Agency for International Development Acquisition Regulation "
-            "(AIDAR)",
+           "(AIDAR)",
     "ADB": "Master Property Number",
     "ADC": "Project Property Number",
     "ADD": "Unit Property Number",
@@ -1560,7 +1560,7 @@ reference_id_qualifier = {
     "DG": "Drawing Number",
     "DH": "Drug Enforcement Administration Number",
     "DHH": "Department of Health and Human Services Acquisition Regulation "
-            "(HHSAR)",
+           "(HHSAR)",
     "DI": "Distributor Invoice Number",
     "DIS": "District Number",
     "DJ": "Delivery Ticket Number",
@@ -1590,16 +1590,16 @@ reference_id_qualifier = {
     "DST": "Departure from Specification Type Code",
     "DT": "Downstream Shipper Contract Number",
     "DTS": "Department of the Treasury Acquisition/Procurement Regulation "
-            "(TAPR)",
+           "(TAPR)",
     "DU": "Dependents Information",
     "DUN": "D-U-N-S Number Dun & Bradstreet",
     "DV": "Diversion Authority Number",
     "DW": "Deposit Sequence Number",
     "DX": "Department/Agency Number",
     "DY": "Department of Defense Transportation Service Code Number "
-            "(Household Goods)",
+          "(Household Goods)",
     "DZ": "Certified Registered Nurse Anesthetist (CRNA) Provider "
-            "Identification Number",
+          "Identification Number",
     "E1": "Emergency Order Number",
     "E2": "Part Causing Repair Number",
     "E3": "Expansion on Effect of Change Number",
@@ -1621,7 +1621,7 @@ reference_id_qualifier = {
     "EI": "Employer's Identification Number",
     "EJ": "Patient Account Number",
     "EK": "Healthcare Manpower Shortage Area (HMSA) Facility Identification "
-            "Number",
+          "Number",
     "EL": "Electronic device pin number",
     "EM": "Electronic Payment Reference Number",
     "EMM": "End Mile Marker",
@@ -1754,13 +1754,13 @@ reference_id_qualifier = {
     "HT": "Code of Federal Regulations",
     "HU": "Type of Escrow Number",
     "HUD": "Department of Housing and Urban Development Acquisition "
-            "Regulation (HUDAR)",
+           "Regulation (HUDAR)",
     "HV": "Escrow File Number",
     "HW": "High/Wide File Number",
     "HX": "Auto Loss Item Number",
     "HY": "Property Loss Item Number",
     "HZ": "Tax Agency Number (MERS [Mortgage Electronic Registration System] "
-            "Federal Information Processing Standards [FIPS] Based Number)",
+          "Federal Information Processing Standards [FIPS] Based Number)",
     "I1": "Owning Bureau Identification Number",
     "I2": "Interstate Commerce Commission (ICC) Account Number",
     "I3": "Non-American Identification Number",
@@ -1797,7 +1797,7 @@ reference_id_qualifier = {
     "IRP": "International Registration Plan Account Number",
     "IS": "Invoice Number Suffix",
     "ISC": "International Standard Industrial Classification (ISIC) "
-            "Dominion of Canada Code (DCC)",
+           "Dominion of Canada Code (DCC)",
     "ISN": "International Registration Plan Sticker Number",
     "ISS": "Inspection and Survey Sequence Number",
     "IT": "Internal Customer Number",
@@ -1896,7 +1896,7 @@ reference_id_qualifier = {
     "LH": "Longitude Expressed in Seconds",
     "LI": "Line Item Identifier (Seller's)",
     "LIC": "Health Industry Business Communications Council (HIBCC) Labeler "
-            "Identification Code (LIC)",
+           "Identification Code (LIC)",
     "LJ": "Local Jurisdiction",
     "LK": "Longitude expressed in Degrees, Minutes and Seconds",
     "LL": "Latitude Expressed in Seconds",
@@ -1951,7 +1951,7 @@ reference_id_qualifier = {
     "MT": "Meter Ticket Number",
     "MU": "Military Specification (MILSPEC) Number",
     "MV": "Migrant Number, This number is assigned by the national Migrant "
-            "Records Transfer System",
+          "Records Transfer System",
     "MW": "Military Call Number",
     "MX": "Material Change Notice Number",
     "MY": "Model year number",
@@ -1962,7 +1962,7 @@ reference_id_qualifier = {
     "N2": "Local School District Course Number",
     "N3": "Statewide Course Number",
     "N4": "United States Department of Education, National Center for "
-            "Education Statistics (NCES) Course Number",
+          "Education Statistics (NCES) Course Number",
     "N5": "Provider Plan Network Identification Number",
     "N6": "Plan Network Identification Number",
     "N7": "Facility Network Identification Number",
@@ -1970,7 +1970,7 @@ reference_id_qualifier = {
     "N9": "Data Authentication Number",
     "NA": "North American Hazardous Classification Number",
     "NAS": "National Aeronautics and Space Administration FAR Supplement "
-            "(NFS)",
+           "(NFS)",
     "NB": "Letter of Credit Number",
     "NC": "Secondary Coverage Company Number",
     "ND": "Letter of Credit Draft Number",
@@ -2047,8 +2047,8 @@ reference_id_qualifier = {
     "PAN": "Nonprovisional Patent Application Number",
     "PAP": "Provisional Patent Application Number",
     "PB": "Payer's Financial Institution Account Number for Check, Draft, or "
-            "Wire Payments; Originating Company Account Number for ACH "
-            "Transfers",
+          "Wire Payments; Originating Company Account Number for ACH "
+          "Transfers",
     "PC": "Production Code",
     "PCC": "Pool Contract Code",
     "PCN": "Protocol Number",
@@ -2095,7 +2095,7 @@ reference_id_qualifier = {
     "PWS": "Proposed Work Candidate Sequence Number",
     "PX": "Previous Invoice Number",
     "PY": "Payee's Financial Institution Account Number for Check, Draft or "
-            "Wire Payments; Receiving Company Account Number for ACH Transfer",
+          "Wire Payments; Receiving Company Account Number for ACH Transfer",
     "PZ": "Product Change Notice Number",
     "Q1": "Quote Number",
     "Q2": "Starting Package Number",
@@ -2133,7 +2133,7 @@ reference_id_qualifier = {
     "QY": "Service Performed Code",
     "QZ": "Reference Drawing Number",
     "R0": "Regiristo Federal de Contribuyentes (Mexican Federal Tax ID "
-            "Number)",
+          "Number)",
     "R1": "Current Revision Number",
     "R2": "Canceled Revision Number",
     "R3": "Correction Number",
@@ -2168,18 +2168,18 @@ reference_id_qualifier = {
     "RPT": "Report Number",
     "RQ": "Purchase Requisition Number",
     "RR": "Payer's Financial Institution Transit Routing Number for Check, "
-            "Draft or Wire Payments. Originating Depository Financial "
-            "Institution Routing Number for ACH Transfers",
+          "Draft or Wire Payments. Originating Depository Financial "
+          "Institution Routing Number for ACH Transfers",
     "RRS": "Reconciliation Report Section Identification Code",
     "RS": "Returnable Container Serial Number",
     "RSN": "Reservation Number",
     "RT": "Payee's Financial Institution Transit Routing Number for Check, "
-            "Draft or Wire Payments. Receiving Depository Financial "
-            "Institution Transit Routing Number for ACH Transfers",
+          "Draft or Wire Payments. Receiving Depository Financial "
+          "Institution Transit Routing Number for ACH Transfers",
     "RU": "Route Number",
     "RV": "Receiving Number",
     "RW": "Repetitive Waybill Code (Origin Carrier, Standard Point Location "
-            "Code, Repetitive Waybill Code Number)",
+          "Code, Repetitive Waybill Code Number)",
     "RX": "Resubmit number",
     "RY": "Rebate Number",
     "RZ": "Returned Goods Authorization Number",
@@ -2213,7 +2213,7 @@ reference_id_qualifier = {
     "SM": "Sales Office Number",
     "SN": "Seal Number",
     "SNH": "Systematized Nomenclature of Human and Veterinary Medicine "
-            "(SNOMED)",
+           "(SNOMED)",
     "SNV": "State Non-Resident Violator Compact",
     "SO": "Shipper's Order (Invoice Number)",
     "SP": "Scan Line",
@@ -2403,7 +2403,7 @@ reference_id_qualifier = {
     "XH": "Contract Auditor ID Number",
     "XI": "Federal Home Loan Mortgage Corporation Loan Number",
     "XJ": "Federal Home Loan Mortgage Corporation Default/Foreclosure "
-            "Specialist Number",
+          "Specialist Number",
     "XK": "Mortgagee Loan Number",
     "XL": "Insured's Loan Number",
     "XM": "Issuer Number",
@@ -2556,34 +2556,34 @@ id_code_qualifier = {
     "63": "Servicer-holder Mortgagee Number",
     "64": "One Call Agency",
     "71": "Integrated Postsecondary Education Data System (IPEDS) set of "
-            "codes maintained by the U.S. Department of Education's National "
-            "Center of Education Statistics, Washington, D.C.",
+          "codes maintained by the U.S. Department of Education's National "
+          "Center of Education Statistics, Washington, D.C.",
     "72": "The College Board's Admission Testing Program (ATP), administered "
-            "by the Educational Testing Service (ETS), 4-digit list of "
-            "postsecondary educational institutions.",
+          "by the Educational Testing Service (ETS), 4-digit list of "
+          "postsecondary educational institutions.",
     "73": "Federal Interagency Commission on Education (FICE) number. "
-            "Available from the United States Department of Education, "
-            "National Center for Education Statistics.",
+          "Available from the United States Department of Education, "
+          "National Center for Education Statistics.",
     "74": "American College Testing (ACT) list of postsecondary educational "
-            "institutions.",
+          "institutions.",
     "75": "State or Province Assigned Number",
     "76": "Local School District or Jurisdiction Number",
     "77": "National Center for Education Statistics (NCES) Common Core of "
-            "Data (CCD) number for PreK - 12 institutions",
+          "Data (CCD) number for PreK - 12 institutions",
     "78": "The College Board and ACT 6 digit code list of secondary "
-            "educational institutions",
+          "educational institutions",
     "81": "Classification of Instructional Programs (CIP) coding structure "
-            "maintained by the U.S. Department of Education's National Center "
-            "for Education Statistics",
+          "maintained by the U.S. Department of Education's National Center "
+          "for Education Statistics",
     "82": "Higher Education General Information Survey (HEGIS) maintained by "
-            "the U.S. Department of Education's National Center for Education "
-            "Statistics",
+          "the U.S. Department of Education's National Center for Education "
+          "Statistics",
     "90": "California Ethnic Subgroups Code Table",
     "91": "Assigned by Seller or Seller's Agent",
     "92": "Assigned by Buyer or Buyer's Agent",
     "93": "Code assigned by the organization originating the transaction set",
     "94": "Code assigned by the organization that is the ultimate destination "
-            "of the transaction set",
+          "of the transaction set",
     "95": "Assigned By Transporter",
     "96": "Assigned By Pipeline Operator",
     "97": "Receiver's Code",
@@ -2595,7 +2595,7 @@ id_code_qualifier = {
     "A3": "Assigned by Third Party",
     "A4": "Assigned by Clearinghouse",
     "A5": "Committee for Uniform Security Identification Procedures (CUSIP) "
-            "Number",
+          "Number",
     "A6": "Financial Identification Numbering System (FINS) Number",
     "AA": "Postal Service Code",
     "AB": "US Environmental Protection Agency (EPA) Identification Number",
@@ -2615,26 +2615,26 @@ id_code_qualifier = {
     "C2": "Health Maintenance Organization (HMO) Provider Number",
     "C5": "Customer Identification File",
     "CA": "Statistics Canada Canadian College Student Information System "
-            "Course Codes",
+          "Course Codes",
     "CB": "Statistics Canada Canadian College Student Information System "
-            "Institution Codes",
+          "Institution Codes",
     "CC": "Statistics Canada University Student Information System "
-            "Curriculum Codes",
+          "Curriculum Codes",
     "CD": "Contract Division",
     "CE": "Bureau of the Census Filer Identification Code",
     "CF": "Canadian Financial Institution Routing Number",
     "CI": "CHAMPUS (Civilian Health and Medical Program of the Uniformed "
-            "Services) Identification Number",
+          "Services) Identification Number",
     "CL": "Corrected Loan Number",
     "CM": "U.S. Customs Service (USCS) Manufacturer Identifier (MID)",
     "CP": "Canadian Petroleum Association",
     "CR": "Credit Repository",
     "CS": "Statistics Canada University Student Information System University "
-            "Codes",
+          "Codes",
     "CT": "Court Identification Code",
     "D": "Census Schedule D",
     "DG": "United States Department of Education Guarantor Identification "
-            "Code",
+          "Code",
     "DL": "United States Department of Education Lender Identification Code",
     "DN": "Dentist License Number",
     "DP": "Data Processing Point",
@@ -2655,7 +2655,7 @@ id_code_qualifier = {
     "FI": "Federal Taxpayer's Identification Number",
     "FJ": "Federal Jurisdiction",
     "FN": "U.S. Environmental Protection Agency (EPA) Laboratory "
-            "Certification Identification",
+          "Certification Identification",
     "G": "Payee Identification Number",
     "GA": "Primary Agent Identification",
     "GC": "GAS*CODE",
@@ -2681,16 +2681,16 @@ id_code_qualifier = {
     "MI": "Member Identification Number",
     "MK": "Market",
     "ML": "Multiple Listing Service Vendor - Multiple Listing Service "
-            "Identification",
+          "Identification",
     "MN": "Mortgage Identification Number",
     "MP": "Medicare Provider Number",
     "MR": "Medicaid Recipient Identification Number",
     "N": "Insured's Unique Identification Number",
     "NA": "National Association of Realtors - Multiple Listing Service "
-            "Identification",
+          "Identification",
     "ND": "Mode Designator",
     "NI": "National Association of Insurance Commissioners (NAIC) "
-            "Identification",
+          "Identification",
     "NO": "National Criminal Information Center Originating Agency",
     "OC": "Occupation Code",
     "OP": "On-line Payment and Collection",
@@ -2718,7 +2718,7 @@ id_code_qualifier = {
     "ST": "State/Province License Tag",
     "SV": "Service Provider Number",
     "SW": "Society for Worldwide Interbank Financial Telecommunications "
-            "(SWIFT) Address",
+          "(SWIFT) Address",
     "TA": "Taxpayer ID Number",
     "TC": "Internal Revenue Service Terminal Code",
     "TZ": "Department Code",
@@ -2730,8 +2730,8 @@ id_code_qualifier = {
     "US": "Unique Supplier Identification Number (USIN)",
     "WR": "Wine Region Code",
     "XV": "Health Care Financing Administration National PlanIDRequired if "
-            "the National PlanID is mandated for use. Otherwise, one of the "
-            "other listed codes may be used.",
+          "the National PlanID is mandated for use. Otherwise, one of the "
+          "other listed codes may be used.",
     "XX": "Health Care Financing Administration National Provider Identifier",
     "ZC": "Contractor Establishment Code",
     "ZN": "Zone",
@@ -2887,7 +2887,7 @@ date_or_time_qualifier = {
     "146": "Closing Date",
     "147": "Due Date Last Complete Installment Paid",
     "148": "Date of Local Office Approval of Conveyance of Damaged Real "
-            "Estate Property",
+           "Estate Property",
     "149": "Date Deed Filed for Record",
     "150": "Service Period Start",
     "151": "Service Period End",
@@ -3020,7 +3020,7 @@ date_or_time_qualifier = {
     "278": "Last Item Delivery",
     "279": "Contract Completion",
     "280": "Date Course of Orthodontics Treatment Began or is Expected to "
-            "Begin",
+           "Begin",
     "281": "Over Target Baseline Month",
     "282": "Previous Report",
     "283": "Funds Appropriation - Start",
@@ -3042,7 +3042,7 @@ date_or_time_qualifier = {
     "299": "Illness",
     "300": "Enrollment Signature Date",
     "301": "Consolidated Omnibus Budget Reconciliation Act (COBRA) Qualifying "
-            "Event",
+           "Event",
     "302": "Maintenance",
     "303": "Maintenance Effective",
     "304": "Latest Visit or Consultation",
@@ -3203,7 +3203,7 @@ date_or_time_qualifier = {
     "460": "Nursing Home To",
     "461": "Last Certification",
     "462": "Date of Local Office Approval of Conveyance of Occupied Real "
-            "Estate Property",
+           "Estate Property",
     "463": "Begin Therapy",
     "464": "Oxygen Therapy From",
     "465": "Oxygen Therapy To",
@@ -3212,7 +3212,7 @@ date_or_time_qualifier = {
     "468": "Prescription Fill",
     "469": "Provider Signature",
     "470": "Date of Local Office Certification of Conveyance of Damaged Real "
-            "Estate Property",
+           "Estate Property",
     "471": "Prescription",
     "472": "Service",
     "473": "Medicaid Begin",
