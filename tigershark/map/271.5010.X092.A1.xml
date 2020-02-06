@@ -239,7 +239,7 @@
                 <name>Transaction Set Header</name>
                 <usage>R</usage>
                 <pos>020</pos>
-                <repeat>1</repeat>
+                <repeat>&gt;1</repeat>
                 <segment xid="ST">
                     <name>Transaction Set Header</name>
                     <usage>R</usage>
@@ -260,68 +260,66 @@
                         <usage>R</usage>
                         <seq>02</seq>
                     </element>
-                    <element xid="ST03">
-                        <data_ele>1705</data_ele>
-                        <name>Implementation Convention Reference</name>
-                        <usage>R</usage>
-                        <seq>03</seq>
-                        <valid_codes>
-                            <code>005010X279A1</code>
-                        </valid_codes>
-                    </element>
                 </segment>
                 <!--End of ST segment-->
-                <segment xid="BHT">
-                    <name>Beginning of Hierarchical Transaction</name>
+                <loop xid="HEADER" type="wrapper">
+                    <name>Table 1 - Header</name>
                     <usage>R</usage>
-                    <pos>020</pos>
-                    <max_use>1</max_use>
-                    <element xid="BHT01">
-                        <data_ele>1005</data_ele>
-                        <name>Hierarchical Structure Code</name>
+                    <pos>015</pos>
+                    <repeat>1</repeat>
+                    <segment xid="BHT">
+                        <name>Beginning of Hierarchical Transaction</name>
                         <usage>R</usage>
-                        <seq>01</seq>
-                        <valid_codes>
-                            <code>0022</code>
-                        </valid_codes>
-                    </element>
-                    <element xid="BHT02">
-                        <data_ele>353</data_ele>
-                        <name>Transaction Set Purpose Code</name>
-                        <usage>R</usage>
-                        <seq>02</seq>
-                        <valid_codes>
-                            <code>06</code>
-                            <code>11</code>
-                        </valid_codes>
-                    </element>
-                    <element xid="BHT03">
-                        <data_ele>127</data_ele>
-                        <name>Submitter Transaction Identifier</name>
-                        <usage>S</usage>
-                        <seq>03</seq>
-                    </element>
-                    <element xid="BHT04">
-                        <data_ele>373</data_ele>
-                        <name>Transaction Set Creation Date</name>
-                        <usage>R</usage>
-                        <seq>04</seq>
-                        <valid_codes/>
-                    </element>
-                    <element xid="BHT05">
-                        <data_ele>337</data_ele>
-                        <name>Transaction Set Creation Time</name>
-                        <usage>R</usage>
-                        <seq>05</seq>
-                    </element>
-                    <element xid="BHT06">
-                        <data_ele>640</data_ele>
-                        <name>Transaction Type Code</name>
-                        <usage>N</usage>
-                        <seq>06</seq>
-                    </element>
-                </segment>
-                <!--End of BHT segment-->
+                        <pos>020</pos>
+                        <max_use>1</max_use>
+                        <element xid="BHT01">
+                            <data_ele>1005</data_ele>
+                            <name>Hierarchical Structure Code</name>
+                            <usage>R</usage>
+                            <seq>01</seq>
+                            <valid_codes>
+                                <code>0022</code>
+                            </valid_codes>
+                        </element>
+                        <element xid="BHT02">
+                            <data_ele>353</data_ele>
+                            <name>Transaction Set Purpose Code</name>
+                            <usage>R</usage>
+                            <seq>02</seq>
+                            <valid_codes>
+                                <code>06</code>
+                                <code>11</code>
+                            </valid_codes>
+                        </element>
+                        <element xid="BHT03">
+                            <data_ele>127</data_ele>
+                            <name>Submitter Transaction Identifier</name>
+                            <usage>S</usage>
+                            <seq>03</seq>
+                        </element>
+                        <element xid="BHT04">
+                            <data_ele>373</data_ele>
+                            <name>Transaction Set Creation Date</name>
+                            <usage>R</usage>
+                            <seq>04</seq>
+                            <valid_codes/>
+                        </element>
+                        <element xid="BHT05">
+                            <data_ele>337</data_ele>
+                            <name>Transaction Set Creation Time</name>
+                            <usage>R</usage>
+                            <seq>05</seq>
+                        </element>
+                        <element xid="BHT06">
+                            <data_ele>640</data_ele>
+                            <name>Transaction Type Code</name>
+                            <usage>N</usage>
+                            <seq>06</seq>
+                        </element>
+                    </segment>
+                    <!--End of BHT segment-->
+                </loop>
+                <!--End of HEADER loop-->
                 <loop xid="DETAIL" type="wrapper">
                     <name>Table 2 - Detail</name>
                     <usage>R</usage>
