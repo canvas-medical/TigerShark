@@ -105,7 +105,7 @@ class EligibilityOrBenefitInformation(X12SegmentBridge):
     """Eligibility Information."""
     information_type = ElementAccess("EB", 1, x12type=enum(eligibility_or_benefit_code))
     coverage_level = ElementAccess("EB", 2, x12type=enum(coverage_level))
-    service_type = ElementAccess("EB", 3, x12type=enum(service_type_codes))
+    service_type = ElementAccess("EB", 3, x12type=enum(service_type_codes, repetition='^'))
     insurance_type = ElementAccess("EB", 4, x12type=enum(insurance_type))
     description = ElementAccess("EB", 5)
     time_period_type = ElementAccess("EB", 6, x12type=enum(time_period_qualifier))

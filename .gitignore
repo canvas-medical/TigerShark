@@ -43,3 +43,7 @@ web/claims/*.pyc
 web/claims_837/*.pyc
 
 build/*
+
+tigershark/pyx12
+
+**/__pycache__

@@ -95,6 +95,7 @@ class NamedEntity(X12SegmentBridge):
         x12type=enum({
             "03": "Dependent",
             "13": "Contracted Service Provider",
+            "1I": "Preferred Provider Organization (PPO)",
             "1P": "Provider",
             "2B": "Third-Party Administrator",
             "36": "Employer",
@@ -102,18 +103,24 @@ class NamedEntity(X12SegmentBridge):
             "80": "Hospital",
             "FA": "Facility",
             "GP": "Gateway Provider",
+            "GW": "Group",
             "IL": "Insured",
+            "I3": "Independent Physicians Association (IPA)",
             "LR": "Legal Representative",
             "P3": "Primary Care Provider",
             "P4": "Prior Insurance Carrier",
             "P5": "Plan Sponsor",
             "PR": "Payer",
             "PRP": "Primary Payer",
+            "OC": "Origin Carrier",
             "QC": "Patient",
             "SEP": "Secondary Payer",
             "TTP": "Tertiary Payer",
+            "VER": "Party Performing Verification",
             "VN": "Vendor",
-            "X3": "Utilization Management Organization"
+            "VY": "Organization Completing Configuration Change",
+            "X3": "Utilization Management Organization",
+            "Y2": "Managed Care Organization"
         },
                      raw_unknowns=True))
     entity_type = ElementAccess("NM1", 2, x12type=enum({"1": "Person", "2": "Non-Person Entity"}))
@@ -126,6 +133,15 @@ class NamedEntity(X12SegmentBridge):
 
     id_code = ElementAccess("NM1", 9)
     id_code_qual = ElementAccess("NM1", 8, x12type=enum(id_code_qualifier))
+    benefit_relationship = ElementAccess("NM1", 10, x12type=enum({
+        "01": "Parent",
+        "02": "Child",
+        "27": "Domestic Partner",
+        "41": "Spouse",
+        "48": "Employee",
+        "65": "Other",
+        "72": "Unknown"
+    }))
 
     @property
     def is_person(self):
@@ -155,6 +171,7 @@ class ContactInformation(X12SegmentBridge):
     contact_work_phone = ElementAccess("PER", oneOf=("WP", (3, 4), (5, 6), (7, 8)))
     contact_phone = ElementAccess("PER", oneOf=("TE", (3, 4), (5, 6), (7, 8)))
     contact_phone_ext = ElementAccess("PER", oneOf=("EX", (3, 4), (5, 6), (7, 8)))
+    contact_url = ElementAccess("PER", oneOf=("UR", (3, 4), (5, 6), (7, 8)))
 
 
 class Address(X12SegmentBridge):
@@ -193,8 +210,13 @@ class Relationship(X12SegmentBridge):
             "01": "Spouse",
             "18": "Self",
             "19": "Child",
+            "20": "Employee",
             "21": "Unknown",
-            "34": "Other Adult"
+            "34": "Other Adult",
+            "39": "Organ Donor",
+            "40": "Cadaver Donor",
+            "53": "Life Partner",
+            "G8": "Other Relationship"
         },
                      raw_unknowns=True))
     maintenance_type = ElementAccess("INS", 3, x12type=enum({"001": "Change"}, raw_unknowns=True))
@@ -221,6 +243,8 @@ class DateOrTimePeriod(X12SegmentBridge):
 class Diagnosis(X12SegmentBridge):
     principal_diagnosis_icd9_code = ElementAccess("III", 2, qualifier=(1, "BK"))
     diagnosis_icd9_code = ElementAccess("III", 2, qualifier=(1, "BF"))
+    diagnosis_ncci_code = ElementAccess("III", 2, qualifier=(1, "GR"))
+    diagnosis_injury_code = ElementAccess("III", 2, qualifier=(1, "NI"))
     other_code = ElementAccess(
         "III",
         2,
@@ -256,6 +280,12 @@ class Diagnosis(X12SegmentBridge):
             "81": "Independent Laboratory 99 Other Unlisted Facility"
         },
                      raw_unknowns=True))
+    code_category = ElementAccess(
+        "III",
+        3,
+        x12type=enum({
+            "44": "Nature of Injury"
+        }))
 
 
 class ProviderInformation(X12SegmentBridge):
@@ -292,7 +322,8 @@ class ProviderInformation(X12SegmentBridge):
             "HPI": "Healthcare Financing Administration National Provider ID",
             "SY": "Social Security Number",
             "TJ": "Federal Taxpayer's Identification Number",
-            "ZZ": "Mutually Defined"
+            "ZZ": "Mutually Defined",
+            "PXC": "Health Care Provider Taxonomy Code"
         },
                      raw_unknowns=True))
     reference_id = ElementAccess("PRV", 3)
