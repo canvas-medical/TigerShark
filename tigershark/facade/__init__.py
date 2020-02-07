@@ -1009,7 +1009,7 @@ class Money(XDecimal):
         return "{:.2f}".format(value)
 
 
-def enum(options, raw_unknowns=False, repetition=None):
+def enum(options, raw_unknowns=False):
     """Translate abbreviations or codes into descriptions.
 
     :param options: A dictionary of code:description
@@ -1042,14 +1042,9 @@ def enum(options, raw_unknowns=False, repetition=None):
             if raw == "" or raw is None:
                 return None
             elif raw in options:
-                tuple_option = (raw, options[raw])
-                return tuple_option if repetition is None else [tuple_option]
+                return (raw, options[raw])
             elif raw_unknowns:
                 return raw
-            elif repetition is not None and repetition in raw:
-                return [
-                    (raw, options[repetition_raw]) for repetition_raw in raw.split(repetition) if repetition_raw in options
-                ]
             return None
 
         @staticmethod
